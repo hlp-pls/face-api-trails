@@ -167,7 +167,7 @@ function draw(){
 			let ex = -cam_width/2+dx;
 			let ey = -cam_height/2+dy;
 
-			//ellipse(ex,ey,20,20);
+			ellipse(ex,ey,20,20);
 
 			let min_x = ex;
 			let min_y = ey;
@@ -185,7 +185,7 @@ function draw(){
 				if(max_x<x){ max_x = x; }
 				if(max_y<y){ max_y = y; }
 
-				//ellipse(x,y,4,4);
+				ellipse(x,y,4,4);
 				vertex(x,y);
 			}
 			vertex(ex,ey);
