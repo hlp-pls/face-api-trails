@@ -92,7 +92,7 @@ function modelLoaded(){
 }
 
 function draw(){
-	//background(255,0.5);
+	background(255,1);
 
 	translate(width/2,height/2);
 	scale(-1,1);
