@@ -19,7 +19,7 @@ video{
 	z-index: 1;
 	line-height: 1.4;
 	font-size: 14pt;
-	font-family: 'EB Garamond', serif;
+	font-family: 'Roboto Mono', monospace;
 }
 
 #sound,#record:hover{
